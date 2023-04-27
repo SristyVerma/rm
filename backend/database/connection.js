@@ -10,10 +10,10 @@ const connectDatabase = () => {
     .then(() => {
       console.log("Database connected");
     })
-    .catch((err) => {
-      console.error("Error connecting to database:", err.message);
-      process.exit(1);
-    });
+    // .catch((err) => {
+    //   console.error("Error connecting to database:", err.message);
+    //   process.exit(1);
+    // });
 };
 
 module.exports = connectDatabase;
